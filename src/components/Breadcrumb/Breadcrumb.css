@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+a {
+    color: #007b8f;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #007b8f;
+    content: ' \276F';
+}
+
+.svg-inline--fa {
+    color: #007b8f;
+    margin-right: 13px;
+    margin-top: 4px;
+}
+

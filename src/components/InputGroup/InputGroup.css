@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+.form-check-input:checked {
+    background-color: #007b8f;
+    border-color: #007b8f;
+}
+.radio-group {
+    display: grid;
+    border: 1px solid gray;
+    max-width: 300px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.radio-group p{
+    text-transform: uppercase;
+}

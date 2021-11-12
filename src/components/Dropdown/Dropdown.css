@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-primary, .show>.btn-primary.dropdown-toggle, .btn-check:focus+.btn-primary, .btn-primary:focus, .btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active
+.btn-primary:hover, .dropdown-toggle {
+background-color: #ffffff;
+border-color: #666666;
+color: #666666;
+}
+
+.dropdown-item:hover {
+    color: #007b8f;
+}
+.show {
+    background-color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #666666;
+}
+
+.btn-textonly, #btn-textonly {
+    border: none;
+}
+

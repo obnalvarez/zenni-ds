@@ -1,0 +1,26 @@
+.offcanvas {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+
+.offcanvas-header .close-button {
+  cursor: pointer;
+  box-sizing: content-box;
+  padding: 0.25em 0.25em;
+  color: #000;
+  background: transparent;
+  border: 0;
+  border-radius: 0.25em;
+  display: flex;
+  align-items: center;
+}
+
+.offcanvas-header .close-button:hover {
+  color: #007B8F;
+}
+
+.offcanvas-body {
+  background-color: #fafafa;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0 -5px 5px 0 rgb(216 209 202 / 50%);
+}

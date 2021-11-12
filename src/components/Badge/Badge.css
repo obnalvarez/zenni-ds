@@ -1,0 +1,28 @@
+
+.variant1{
+    border-radius: 5px !important;
+    font-size: 16px;
+    background-color: #ffffff !important;
+    color: #007b8f;
+}
+
+.variant2{
+    border-radius: 0px !important;
+    font-size: 16px;
+    background-color: #007b8f !important;
+    color: #ffffff;
+}
+
+.variant3{
+    border-radius: 5px !important;
+    font-size: 16px;
+    background-color: #6c757d !important;
+}
+    
+.variant4{
+    border-radius: 0px !important;
+    font-size: 16px;
+    background-color:#ffffff !important;
+    color: #007b8f ;
+    border: 1px #6c757d solid ;
+}

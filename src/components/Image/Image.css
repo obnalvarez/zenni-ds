@@ -1,0 +1,23 @@
+.img-hero {
+    width: 1536px;
+    height: 450px;
+}
+
+.img-product {
+    width: 750px;
+}
+
+.img-hero--half {
+    width: 769px;
+    height: 450px;
+}
+
+.img-hero--primary {
+    width: 1536px;
+    height: 598px;
+}
+
+.img-hero--large {
+    width: 1650;
+    height: 865px;
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+.accordion-button {
+    color: black; 
+    font-weight: 400;
+}
+
+.accordion-button:hover {
+    color: #007b8f;
+}
+
+.accordion-button::after {
+    filter: invert(17%) sepia(55%) saturate(6501%) hue-rotate(177deg) brightness(101%) contrast(106%);
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: invert(17%) sepia(55%) saturate(6501%) hue-rotate(
+        177deg) brightness(101%) contrast(106%);  
+}
+
+.accordion-button:not(.collapsed) {
+    color: #007b8f;
+    background-color: #ffffff;
+   
+}
+.accordion-item {
+    display: grid;
+    border:none;
+    justify-items: start;
+}
+
+.accordion-button {
+    display: grid;
+    border: none;
+    grid-auto-flow: column;
+    justify-items: start;
+}
+
+.accordion-button::after {
+    grid-column: 1;
+    width: 40px;
+    margin-top: 3px;
+}
+
+
+
+
