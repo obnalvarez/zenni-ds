@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ModalComponent from '../components/Modal';
+import { ModalComponent } from '../components/Modal'
 
 export default {
   title: 'Modal',

@@ -2,7 +2,7 @@ import React from 'react';
 import { Modal } from 'react-bootstrap';
 import './Modal.css';
 
-const ModalComponent = ({ show, hide, modalTitle, closeMessage = false, fullscreen = false, children }) => {
+export const ModalComponent = ({ show, hide, modalTitle, closeMessage = false, fullscreen = false, children }) => {
   return (
     <>
       <Modal size="lg" show={show} onHide={hide} fullscreen={fullscreen}>
@@ -20,5 +20,3 @@ const ModalComponent = ({ show, hide, modalTitle, closeMessage = false, fullscre
     </>
   )
 }
-
-export default ModalComponent;

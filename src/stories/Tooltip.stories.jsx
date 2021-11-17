@@ -1,10 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import  Tooltip  from '../components/Tooltip';
+import  { Tooltip, TooltipComponent }  from '../components/Tooltip';
 
 export default {
   title: 'Tooltip',
-  component: Tooltip,
+  component: TooltipComponent,
   argTypes: {
     tooltipColor: {
       options: ['white', 'black'],
@@ -28,7 +28,7 @@ export default {
 };
 
 const Template = (args) => (
-  <Tooltip {...args} />
+  <TooltipComponent {...args} />
 );
 
 const renderChild = () => (

@@ -3,7 +3,7 @@ import  Offcanvas  from 'react-bootstrap/Offcanvas';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Offcanvas.css';
 
-const OffcanvasComponent = ({ show, hide, placement = 'start', children }) => {
+export const OffcanvasComponent = ({ show, hide, placement = 'start', children }) => {
   return (
     <>
       <Offcanvas show={show} onHide={hide} backdrop={false} placement={placement}>
@@ -24,4 +24,3 @@ const OffcanvasComponent = ({ show, hide, placement = 'start', children }) => {
   )
 }
 
-export default OffcanvasComponent;

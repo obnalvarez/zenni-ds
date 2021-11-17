@@ -1,6 +1,6 @@
 import React from 'react';
-import { OffcanvasComponent } from "../components/Offcanvas"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { OffcanvasComponent } from "../components/Offcanvas"
 
 export default {
   title: 'Offcanvas',

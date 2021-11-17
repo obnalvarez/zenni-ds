@@ -2,7 +2,7 @@ import React from "react";
 import { OverlayTrigger, Tooltip, Popover } from 'react-bootstrap';
 import './Tooltip.css';
 
-export const Tootip = ({ children, borders = false, placement, tooltipColor = 'white', title = null, tooltipMessage }) => {
+export const TooltipComponent = ({ children, borders = false, placement, tooltipColor = 'white', title = null, tooltipMessage }) => {
   return (
     <>
       <OverlayTrigger

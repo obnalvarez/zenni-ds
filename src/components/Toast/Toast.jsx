@@ -2,7 +2,7 @@ import React from 'react';
 import Toast  from 'react-bootstrap/Toast';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const ToastComponent = ({ show, close, toastTitle = '', messageOnRight = '', children }) => {
+export const ToastComponent = ({ show, close, toastTitle = '', messageOnRight = '', children }) => {
   return (
     <>
       <Toast show={show} onClose={close}>
@@ -15,5 +15,3 @@ const ToastComponent = ({ show, close, toastTitle = '', messageOnRight = '', chi
     </>
   )
 }
-
-export default ToastComponent;
